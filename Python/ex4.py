@@ -3,7 +3,7 @@
 
 print("========= Uso del break nel ciclo while =========")
 counter_break = 0
-while counter_break < 6:
+while (counter_break < 6):
   counter_break += 1
   if counter_break == 3:
     break
