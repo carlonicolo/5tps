@@ -5,5 +5,6 @@ class Person:
 
 person1 = Person("John", 36)
 
+print(type(person1))
 print(person1.name)
 print(person1.age)
