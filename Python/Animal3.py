@@ -14,4 +14,6 @@ print(a1)
 a1.age = 12
 
 print(a1.age)
+
+f"myfunc -> {a1.myfunc()}"
     
