@@ -1,5 +1,4 @@
 package Java.esercitazione1;
-
 public class Animal2 {
     public String tipo;
     public int age;
