@@ -39,8 +39,8 @@ class Person(User):
         else:
             print("Sei minorenne")
     
-    def __str__(self) -> str:
-        return "From str method of Person: name is %s, age is %s" % (self.get_name(), self.get_age()) 
+    #def __str__(self) -> str:
+    #    return "From str method of Person: name is %s, age is %s" % (self.get_name(), self.get_age()) 
 
 name = str(input("Come ti chiami ? "))
 age = str(input("Quanti anni hai? "))
