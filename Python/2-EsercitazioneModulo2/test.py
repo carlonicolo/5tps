@@ -5,3 +5,4 @@ pippo = Persona("Pippo","Zig",18,"ZSER45678")
 conto_pippo = Conto(pippo,"3987XSERT999",200)
 
 print(pippo)
+conto_pippo.prelievo(20)
