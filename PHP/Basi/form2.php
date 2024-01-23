@@ -9,11 +9,9 @@ session_start();
 // Temporarily in $_POST structure. 
 $_SESSION['name'] = $_POST['user_name'];
 
-$_SESSION['email_address']
-    = $_POST['user_email_address'];
+$_SESSION['email_address'] = $_POST['user_email_address'];
 
-$_SESSION['mobile_number']
-    = $_POST['user_mobile_number'];
+$_SESSION['mobile_number'] = $_POST['user_mobile_number'];
 
 ?>
 
