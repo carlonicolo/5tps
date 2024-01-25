@@ -4,7 +4,7 @@
 
 ### Task 1
 
-Creare "a mano" un database composto da due tabelle:  
+Creare "a mano" un database composto da tre tabelle:  
 
 ```sql
 CREATE DATABASE SchoolDB;
