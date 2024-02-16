@@ -7,7 +7,8 @@ import json
 response = requests.get("https://horoscope-app-api.vercel.app/api/v1/get-horoscope/daily?sign=capricorn&day=today")
 data = response.json()  # Convert the response to JSON
 
-print(data)
+print("Data -> ", data)
+print("\n")
 
 # Store the JSON data in a file
 with open("horoscope_data.json", "w") as file:
