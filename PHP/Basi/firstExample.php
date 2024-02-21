@@ -14,7 +14,7 @@
     <h1>[HTML]-> Hello, world!</h1>
     <h1><?php 
     echo "[PHP]-> Hello, World!";
-	echo "<br>";
+	  echo "<br>";
     $a = "Hello";
     $b = " World";
     $greeting = "[PHP]->" . $a . $b;
