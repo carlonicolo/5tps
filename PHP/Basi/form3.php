@@ -28,20 +28,34 @@
       die("Connection failed: " . $conn->connect_error);
     }
 
-    $stmt = $conn->prepare("INSERT INTO utenti (nome, telefono, city, stato) VALUES (?, ?, ?, ?)");
-    $stmt->bind_param("ssss", $name, $tel, $city, $state);
-
     // set parameters and execute
     $name = $_SESSION['name']; 
     $email =  $_SESSION['email_address'];
     $tel = $_SESSION['mobile_number'];  
     $city = $_POST['city'];
     $state = $_POST['state'];
+
+    $stmt = $conn->prepare("INSERT INTO utenti (nome, telefono, city, stato) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("ssss", $name, $tel, $city, $state);
+
+    
     $stmt->execute();
 
-    echo "New records created successfully";
+    echo "New records created successfully\n";
 
     $stmt->close();
+
+    $sql = "SELECT id, nome, telefono, city FROM utenti";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+      // output data of each row
+      while($row = $result->fetch_assoc()) {
+        echo "id: " . $row["id"]. " - Name: " . $row["nome"]. " " . $row["telefono"]. " " . $row["city"]. "<br>";
+      }
+    } else {
+      echo "0 results";
+    }
     $conn->close();
 
 ?>
