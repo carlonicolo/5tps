@@ -3,15 +3,13 @@
 // Initialize the session 
 session_start();
 
-// Store the submitted data sent 
-// via POST method, stored  
+//Using GET
+$var_user_name = $_GET['user_name'];
 
-// Temporarily in $_POST structure. 
-$_SESSION['name'] = $_GET['user_name'];
+$var_user_email_address = $_GET['user_email_address'];
 
-$_SESSION['email_address'] = $_GET['user_email_address'];
+$var_user_mobile_number = $_GET['user_mobile_number'];
 
-$_SESSION['mobile_number'] = $_GET['user_mobile_number'];
 
 ?>
 
