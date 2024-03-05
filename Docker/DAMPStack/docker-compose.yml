@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+    php:
+        build:
+            context: .
+        ports:
+            - 8090:80
+        volumes:
+            - ./www:/var/www/html
+    mysql:
+        image: mysql
+        environment: 
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_USER: myusername
+            MYSQL_PASSWORD: mypassword
+            MYSQL_DATABASE: mydatabase
+        volumes:
+            - dbdata:/var/lib/mysql
+    pma:
+        image: phpmyadmin/phpmyadmin
+        ports: 
+            - 8080:80
+        links:
+            - mysql:db
+volumes:
+    dbdata:  
