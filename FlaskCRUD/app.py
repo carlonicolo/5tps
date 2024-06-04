@@ -77,7 +77,10 @@ def update_user(id):
       user.username = data['username']
       user.email = data['email']
       db.session.commit()
-      return make_response(jsonify({'message': 'user updated'}), 200)
+
+      user = User.query.filter_by(id=id).first()
+
+      return make_response(jsonify({'message': 'user updated', 'user': user.json()}), 200)
     return make_response(jsonify({'message': 'user not found'}), 404)
   except e:
     return make_response(jsonify({'message': 'error updating user'}), 500)
