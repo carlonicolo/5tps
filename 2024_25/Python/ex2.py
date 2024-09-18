@@ -50,54 +50,45 @@ def divisione(a,b):
   div = a / b
   return div
 
-
-# TASK 5
-# Creazione una funziona che ritorna una lista di n numeri positivi
-'''
-def createList(numero_elementi_lista):
-  lst=[3,4,5,6,7,8]
-#for i in range(len(lst)):
-    #print(i,end=' ')
-  return list
-for i in range(createList):
-  
-print("\nla lista è:  ",createList)
-'''
-
 #### Funcion call ####
 
-# Funzione somma
-print(" ### Funzione somma ###")
-val1 = int(input("Inserisci primo numero: "))
-val2 = int(input("Inserisci secondo numero: "))
-print("la somma è:  ", somma(val1, val2))
-print(" ")
+try:
+    
+  # Funzione somma
+  print(" ### Funzione somma ###")
+  val1 = int(input("Inserisci primo numero: "))
+  val2 = int(input("Inserisci secondo numero: "))
+  print("la somma è:  ", somma(val1, val2))
+  print(" ")
 
-# Funzione differenza
-print(" ### Funzione differenza  ###")
-val1 = int(input("Inserisci primo numero: "))
-val2 = int(input("Inserisci secondo numero: "))
-print("la somma è:  ", differenza(val1, val2))
-print(" ")
+  # Funzione differenza
+  print(" ### Funzione differenza  ###")
+  val1 = int(input("Inserisci primo numero: "))
+  val2 = int(input("Inserisci secondo numero: "))
+  print("la somma è:  ", differenza(val1, val2))
+  print(" ")
 
-# Funzione prodotto
-print(" ### Funzione prodotto  ###")
-val1 = int(input("Inserisci primo numero: "))
-val2 = int(input("Inserisci secondo numero: "))
-print("la somma è:  ", moltiplicazione(val1, val2))
-print(" ")
+  # Funzione prodotto
+  print(" ### Funzione prodotto  ###")
+  val1 = int(input("Inserisci primo numero: "))
+  val2 = int(input("Inserisci secondo numero: "))
+  print("la somma è:  ", moltiplicazione(val1, val2))
+  print(" ")
 
-# Funzione rapporto
-print(" ### Funzione divisione ###")
-print(" *** Ricorda che il denominatore DEVE essere diverso da 0 *** ")
-val1 = int(input("Inserisci primo numero: "))
+  # Funzione rapporto
+  print(" ### Funzione divisione ###")
+  print(" *** Ricorda che il denominatore DEVE essere diverso da 0 *** ")
+  val1 = int(input("Inserisci numeratore: "))
 
-val2 = int(input("Inserisci secondo numero: ")) 
-if (val2 != 0):
-  print("il rapporto è:  ", divisione(val1, val2))
-else:
-  print("Il denominatore non può essere uguale a 0 !!!")
-  while(val2 == 0):
-    val2 = int(input("Inserisci secondo numero: "))
-  print("il rapporto è:  ", divisione(val1, val2))
-  
+  val2 = int(input("Inserisci denominatore: ")) 
+  if (val2 != 0):
+    print("il rapporto è:  ", divisione(val1, val2))
+  else:
+    print("Il denominatore non può essere uguale a 0 !!!")
+    while(val2 == 0):
+      val2 = int(input("Inserisci secondo numero: "))
+    print("il rapporto è:  ", divisione(val1, val2))
+except Exception as e:
+  print("Exception -> ", e)
+finally:
+  print("Here")
