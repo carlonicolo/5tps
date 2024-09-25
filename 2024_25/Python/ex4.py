@@ -9,7 +9,7 @@ def somma(lst_elements: list) -> int:
         print(lst[i])
         res = res + lst[i]
     return res
-    
+
     
 lst = []
 number_of_elements = int(input("Quanti valori vuoi inserire? "))
