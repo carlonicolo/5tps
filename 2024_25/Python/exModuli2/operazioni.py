@@ -1,7 +1,7 @@
 # Funzioni
 
 def calcoloCostoGiornaliero(costo_giornaliero: int, giorni_noleggio: int) -> int:
-    pass
+    return costo_giornaliero * giorni_noleggio
 
 
 
