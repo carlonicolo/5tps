@@ -34,5 +34,31 @@ public class Main {
         //System.out.println("Marca: " + macchina1.getMarca());
 
 
+        // VeicoloKevin
+
+        VeicoloKevin audi = new VeicoloKevin(2000, 20,0,0);
+        System.out.println(audi.getAnnoImmatricolazione());
+        audi.setAnnoImmatricolazione(2016);
+        System.out.println(audi.getAnnoImmatricolazione());
+        audi.setMovimentoX(10);
+        audi.setMovimentoY(20);
+        System.out.println("la posizone X è: " + audi.getPosizioneY());
+        System.out.println("" + audi.getPosizioneY());
+
+        System.out.println("la tua audi è in posizione: ");
+        System.out.println(audi.toString());
+
+        /*
+        System.out.println("*");
+        System.out.println(" *");
+        System.out.println("  *");
+        System.out.println("   *");
+        System.out.println("    *");
+        System.out.println("     *");
+         */
+
+        System.out.println(audi.getCarArt());
+        audi.setCarArt("8");
+        System.out.println(audi.getCarArt());
     }
 }
