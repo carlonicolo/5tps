@@ -27,5 +27,10 @@ public class Studente extends Persona{
         pianoDiStudio += nuovoPdS + "\n";
     }
 
+    @Override
+    public void visualizza() {
+        System.out.println("Nome: " + nome + "\nIndirizzo: " + indirizzo + "\nMatricola: " + matricola);
+    }
+
 }
 

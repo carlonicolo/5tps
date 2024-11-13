@@ -15,6 +15,10 @@ public class Main {
         studente1.visualizza();
 
         System.out.println();
+        Studente studente2 = new Studente("Billy Joe", "Predazzo");
+        studente2.visualizza();
+
+        System.out.println();
         System.out.println("Before");
         System.out.println("Piano di studio: " + studente1.getPdS());
         studente1.modificaPdS("INF");
