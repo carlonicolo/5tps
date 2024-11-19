@@ -7,6 +7,15 @@ public class Main {
          * Simple operation using array
          */
         int[] numbers = {2, -9, 0, 5, 12, -25, 22, 9, 8, 12};
+
+        int[] ops;
+        ops = new int[numbers.length+1];
+
+        for (int i = 0; i < 11; i++){
+            ops[i] = 2*i;
+            System.out.println(ops[i]);
+        }
+
         int sum = 0;
         double average;
 
