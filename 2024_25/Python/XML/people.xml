@@ -1,0 +1,19 @@
+<People>
+    <Person>
+        <Name>Willy Poppy</Name>
+        <Age>35</Age>
+        <Email>willypoppy@loop.com</Email>
+    </Person>
+
+    <Person>
+        <Name>Jack Dilly</Name>
+        <Age>20</Age>
+        <Email>jackdilly@zoom.com</Email>
+    </Person>
+
+    <Person>
+        <Name>Betty Lolly</Name>
+        <Age>25</Age>
+        <Email>bettylolly@guz.com</Email>
+    </Person>
+</People>
