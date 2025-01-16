@@ -1,0 +1,33 @@
+<Automobili>
+
+    <auto>
+        <nome></nome>
+        <data></data>
+        <cilindrata></cilindrata>
+    </auto>
+
+    <auto>
+        <nome></nome>
+        <data></data>
+        <cilindrata></cilindrata>
+    </auto>
+
+    <auto>
+        <nome></nome>
+        <data></data>
+        <cilindrata></cilindrata>
+    </auto>
+
+    <auto>
+        <nome></nome>
+        <data></data>
+        <cilindrata></cilindrata>
+    </auto>
+
+    <auto>
+        <nome></nome>
+        <data></data>
+        <cilindrata></cilindrata>
+    </auto>
+
+</Automobili>
