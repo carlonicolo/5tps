@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionario di Gradimento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options label {
+            margin-right: 10px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Questionario di Gradimento del Corso</h2>
+    <form id="surveyForm" action="risultati.html" method="GET">
+        <div class="question">
+            <p>1. La qualità del materiale didattico era adeguata?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="1"> 1</label>
+                <label><input type="radio" name="q1" value="2"> 2</label>
+                <label><input type="radio" name="q1" value="3"> 3</label>
+                <label><input type="radio" name="q1" value="4"> 4</label>
+                <label><input type="radio" name="q1" value="5"> 5</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>2. Il docente ha spiegato in modo chiaro?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="1"> 1</label>
+                <label><input type="radio" name="q2" value="2"> 2</label>
+                <label><input type="radio" name="q2" value="3"> 3</label>
+                <label><input type="radio" name="q2" value="4"> 4</label>
+                <label><input type="radio" name="q2" value="5"> 5</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>3. Il corso è stato utile per il tuo apprendimento?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="1"> 1</label>
+                <label><input type="radio" name="q3" value="2"> 2</label>
+                <label><input type="radio" name="q3" value="3"> 3</label>
+                <label><input type="radio" name="q3" value="4"> 4</label>
+                <label><input type="radio" name="q3" value="5"> 5</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>4. Il tempo a disposizione è stato sufficiente?</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="1"> 1</label>
+                <label><input type="radio" name="q4" value="2"> 2</label>
+                <label><input type="radio" name="q4" value="3"> 3</label>
+                <label><input type="radio" name="q4" value="4"> 4</label>
+                <label><input type="radio" name="q4" value="5"> 5</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>5. Consiglieresti questo corso ad altri?</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="1"> 1</label>
+                <label><input type="radio" name="q5" value="2"> 2</label>
+                <label><input type="radio" name="q5" value="3"> 3</label>
+                <label><input type="radio" name="q5" value="4"> 4</label>
+                <label><input type="radio" name="q5" value="5"> 5</label>
+            </div>
+        </div>
+        <button type="submit">Invia Risposte</button>
+    </form>
+</body>
+</html>
