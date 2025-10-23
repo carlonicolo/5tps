@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b43e5d8-fa14-44be-88ec-8f28ef2f9d59" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;carlonicolo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/carlonicolo/5tps.git&quot;,
+    &quot;accountId&quot;: &quot;be65ae18-e1cf-4e76-ad45-42c3cf74816d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YrWk1GkSILUnuhRidi7KxnmCDp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Geometry.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Vehicle.executor": "Run",
+    "Application.VehicleGUI.executor": "Run",
+    "Application.arrayEx.Main.executor": "Run",
+    "Application.esercitazioneSottoclassi.Main.executor": "Run",
+    "Application.terzalezione.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Karlitos/git/LabScuola/3tps/Java/CorsoJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Karlitos\git\LabScuola\4tps\Java\CorsoJava\src\primaLezione" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.arrayEx.Main">
+    <configuration name="Geometry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstracClass.Geometry" />
+      <module name="CorsoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstracClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CorsoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab2.VehicleGUI" />
+      <module name="CorsoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arrayEx.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayEx.Main" />
+      <module name="CorsoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="esercitazioneSottoclassi.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="esercitazioneSottoclassi.Main" />
+      <module name="CorsoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="esercitazioneSottoclassi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.arrayEx.Main" />
+        <item itemvalue="Application.esercitazioneSottoclassi.Main" />
+        <item itemvalue="Application.Geometry" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.VehicleGUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b43e5d8-fa14-44be-88ec-8f28ef2f9d59" name="Changes" comment="" />
+      <created>1701284324084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701284324084</updated>
+      <workItem from="1701284325140" duration="1785000" />
+      <workItem from="1701457228136" duration="4562000" />
+      <workItem from="1701725857963" duration="356000" />
+      <workItem from="1701810516289" duration="53000" />
+      <workItem from="1701887851588" duration="3815000" />
+      <workItem from="1701892370286" duration="9000" />
+      <workItem from="1707332216946" duration="1460000" />
+      <workItem from="1708017496091" duration="2842000" />
+      <workItem from="1708022057315" duration="597000" />
+      <workItem from="1708102068453" duration="4850000" />
+      <workItem from="1708114788064" duration="125000" />
+      <workItem from="1708116590650" duration="3118000" />
+      <workItem from="1709313652883" duration="45000" />
+      <workItem from="1709831076724" duration="4811000" />
+      <workItem from="1710521563403" duration="1471000" />
+      <workItem from="1710540838121" duration="619000" />
+      <workItem from="1714166225454" duration="26000" />
+      <workItem from="1718547181363" duration="285000" />
+      <workItem from="1718547723875" duration="798000" />
+      <workItem from="1718549532733" duration="16000" />
+      <workItem from="1718550424757" duration="31000" />
+      <workItem from="1718550495455" duration="623000" />
+      <workItem from="1718626920978" duration="93000" />
+      <workItem from="1718787186201" duration="231000" />
+      <workItem from="1729111214934" duration="2192000" />
+      <workItem from="1729255132797" duration="867000" />
+      <workItem from="1729256249995" duration="50000" />
+      <workItem from="1729256308232" duration="74000" />
+      <workItem from="1729715235361" duration="821000" />
+      <workItem from="1729716155033" duration="1311000" />
+      <workItem from="1729803840946" duration="2714000" />
+      <workItem from="1729891383514" duration="803000" />
+      <workItem from="1730153708637" duration="2333000" />
+      <workItem from="1730231436585" duration="2824000" />
+      <workItem from="1730756263795" duration="282000" />
+      <workItem from="1730756561547" duration="1728000" />
+      <workItem from="1730845587728" duration="1165000" />
+      <workItem from="1730928567227" duration="2023000" />
+      <workItem from="1731009880026" duration="7000" />
+      <workItem from="1731009899202" duration="5000" />
+      <workItem from="1731009912715" duration="2000" />
+      <workItem from="1731450081699" duration="5000" />
+      <workItem from="1731450515358" duration="1155000" />
+      <workItem from="1731535127625" duration="400000" />
+      <workItem from="1731966325149" duration="1301000" />
+      <workItem from="1732055250840" duration="1097000" />
+      <workItem from="1732307949079" duration="1253000" />
+      <workItem from="1734088227833" duration="787000" />
+      <workItem from="1734091699533" duration="1117000" />
+      <workItem from="1734093540885" duration="610000" />
+      <workItem from="1734095480755" duration="517000" />
+      <workItem from="1734096250695" duration="35000" />
+      <workItem from="1734097373844" duration="70000" />
+      <workItem from="1734688331234" duration="1062000" />
+      <workItem from="1734689509239" duration="168000" />
+      <workItem from="1743540252931" duration="328000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
